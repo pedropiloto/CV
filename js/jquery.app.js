@@ -17,83 +17,6 @@ jQuery(function ($) {
     'use strict';
 
     /**
-      * Contact Form Application
-      */
-      var ContactFormApp = {
-        $contactForm: $("#contactForm"),
-        $contactFormBtn: $("#contact_submit_btn"),
-        $contactFormName: $("#contact_name"),
-        $contactFormEmail: $("#contact_email"),
-        $contactFormMessage: $("#contact_message"),
-        $confirmMessage: $("#cformSuccessMsg"),
-        $submitUrl: 'contact.php',
-
-        //Validate Contact Us Data
-        validate: function() {
-          var err = "";
-          //validating name
-          var title = this.$contactFormName.val();
-          
-          if (title == "Name" || title == "" || title == null) {
-            this.$contactFormName.addClass("validation");
-            err = "error";
-          } else {
-            this.$contactFormName.removeClass("validation");
-          }
-
-          //validating email
-          var email = this.$contactFormEmail.val();
-          if (!(/(.+)@(.+){2,}\.(.+){2,}/.test(email))) {
-            this.$contactFormEmail.addClass("validation");
-            err = "error";
-          } else {
-            this.$contactFormEmail.removeClass("validation");
-          }
-
-          //validating message
-          var message = this.$contactFormMessage.val();
-          if (message == "Message" || message == "" || message == null) {
-            this.$contactFormMessage.addClass("validation");
-            err = "error";
-          } else {
-            this.$contactFormMessage.removeClass("validation");
-          }
-          return err;
-        },
-        //contact form submit handler
-        contactFormSubmit: function(obj) {
-          if (this.validate() == "") {
-            var resulttext = $.ajax({
-              type: "POST",
-              url: this.$submitUrl,
-              data: this.$contactForm.serialize(),
-              async: false,
-              success: function(status) {}
-            }).responseText;
-
-            this.$confirmMessage.html(resulttext);
-            this.$contactForm.delay(100).slideUp(1000);
-            this.$confirmMessage.delay(500).slideDown(500);
-          
-            this.$contactFormName.val('');
-            this.$contactFormEmail.val('');
-            this.$contactFormMessage.val('');
-          }
-          return false;
-        },
-        bindEvents: function() {
-          //binding submit event
-          this.$contactFormBtn.on('click', this.contactFormSubmit.bind(this));
-        },
-        init: function() {
-          //initializing the contact form
-          console.log('Contact form is initialized');
-          this.bindEvents();
-          return this;
-        }
-    };
-
-    /**
         Floating menu app
     */
     var FloatingMenuApp = {
@@ -203,8 +126,6 @@ jQuery(function ($) {
         },
         //document ready event
         docReady: function() {
-            //contat form
-            ContactFormApp.init();
 
             /*  menu responsive */
             this.$responsiveMenu.on('click', this.responsiveMenuOnClick.bind(this));
