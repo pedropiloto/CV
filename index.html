@@ -1,642 +1,420 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en-US">
+
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="faviconfavicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 
 <head>
-  <!-- Basic Page Needs
-    ================================================== -->
-  <meta charset="utf-8">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Pedro Piloto</title>
-  <meta name="description" content="Online Resume">
-  <meta name="keywords" content="Online Resume, Piloto">
-  <meta name="author" content="Pedro Piloto">
-
-  <!-- Mobile Specific Metas
-    ================================================== -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- Favicons
-    ================================================== -->
-  <link rel="shortcut icon" href="img/favicon.ico">
-
-  <!-- Google-Fonts
-    ================================================== -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
-
-  <!-- Stylesheet
-    ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/plugins.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/blue.css" media="screen" />
-
-  <!-- Modernizr
-    ================================================== -->
-  <script type="text/javascript" src="js/modernizr.js"></script>
+  <meta name="description" content="Hello! my name is Pedro Piloto and I am a Software Engineer from
+      Portugal." />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/aos.css" rel="stylesheet" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles/main.css" rel="stylesheet" />
 </head>
 
-
-<body data-spy="scroll" data-offset="120">
-
-  <!-- Preloader -->
-  <div class="animationload">
-    <div class="loader">
-      Loading...
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate">
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </div>
-  <!-- End Preloader -->
-
-
-  <!-- Container -->
-  <div id="container" class="container">
-
-    <!-- LEFT-SIDEBAR
-		================================================== -->
-    <div id="sidebar" class="fl_menu">
-      <!-- header -->
-      <header class="sidebar-section">
-        <div class="header-logo">
-          <!-- Logo -->
-          <a class="logo" href="#">
-            <span>Pedro<br />Piloto</span>
-            <!-- Your logo here-->
-          </a>
+  </header>
+  <div class="page-content">
+    <div>
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');">
+            </div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="#"><img src="images/profile-circle.png" alt="Image" /></a>
+                </div>
+                <div class="h2 title">Pedro Piloto</div>
+                <p class="category text-white">
+                  Software Engineer
+                </p>
+                <a class="btn btn-primary" href="cv_en.pdf" target="_blank" data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor">Download CV</a>
+              </div>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/pedro-piloto/"
+                    target="_blank" rel="tooltip" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="mailto:pedro@pedropiloto.com" rel="tooltip"
+                    title="Email"><i class="fa fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <a class="elemadded responsive-link" href="#">Menu</a>
-        <div class="navbar-vertical">
-          <ul class="main-menu nav">
-            <li class="active"><a href="#about"><i class="pe-7s-id"></i>About me</a></li>
-            <li><a href="#skills"><i class="pe-7s-science"></i>Skills</a></li>
-            <li><a href="#experience"><i class="pe-7s-paper-plane"></i>Experience</a></li>
-            <li><a href="#education"><i class="pe-7s-study"></i>Education</a></li>
-            <li><a href="#portfolio"><i class="pe-7s-portfolio"></i>Portfolio</a></li>
-          </ul>
+      </div>
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>
+                    Hello! my name is Pedro Piloto and I am a Software Engineer from
+                    Portugal.
+                  </p>
+                  <p>
+                    Since I graduated, I have been working as a Full-Stack
+                    Software Engineer, but with a special focus on the
+                    back-end. I try to deepen my knowledge mainly in
+                    technologies like Java, Kotlin, Node.Js, and ReactJS, but
+                    also with some experiences with Ruby and Scala in a
+                    professional context. Besides that, I consider myself a
+                    quick learner and I like to try new technologies to
+                    address new challenges.
+                  </p>
+                  <p>
+                    The thing I most like in Software Engineering is to solve
+                    problems, it's an incredible feeling when I deliver
+                    something I'm proud of. Also, I'm not a believer of
+                    Software as a deliverable but, instead, I see it as an
+                    incremental product that must be maintained and monitored.
+                  </p>
+                  <p>
+                    I'm interested in technological challenges with the
+                    potential to create a positive impact on society. My
+                    future ambitions are to enrich my knowledge and capacities
+                    for productive development of applications of considerable
+                    size and application.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Basic Information</div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Date of birth:</strong>
+                    </div>
+                    <div class="col-sm-8">27 May 1996</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">pedro@pedropiloto.com</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Nationality:</strong>
+                    </div>
+                    <div class="col-sm-8">Portuguese</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">City:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      Maia
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </header>
-      <div class="social-box text-center" id="sidebar-social">
-        <ul class="list-inline">
-          <li><a href="https://pt.linkedin.com/in/pedro-piloto-5695a1aa" id="linkedin"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
+      </div>
+
+      <div class="section" id="experience">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Work Experience</div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>September 2018 - Present</p>
+                  <div class="h5">Talkdesk</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Software Engineer</div>
+                  <p>
+                    Part of a full-stack team responsible for maintaining and
+                    evolve a system that allows the customization of the
+                    customer experience during a call. Participated in a lot
+                    of initiatives with different stacks and teams. </br></br><b>Main
+                      Technologies:</b> Kotlin, Java, Spring Boot, Ruby, NodeJS,
+                    OpenFaas, AWS Lambda, Scala, RabbitMQ, Kafka, Looker,
+                    Docker, ReactJS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>September 2017 - August 2018</p>
+                  <div class="h5">Glintt</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Software Engineer Trainee</div>
+                  <p>
+                    Integration in a team of development of Hospital software module.
+                    </br></br><b>Main tecnhologies:</b> .Net, Java, Mulesoft, Oracle Sql, Html, JavaScript, TypeScript,
+                    CSS, Less
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>March 2017 - August 2017</p>
+                  <div class="h5">FYI Digital</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Curricular Internship</div>
+                  <p>
+                    Development of authentication and authorization shared system.
+                    </br></br><b>Main Technologies:</b> PHP, Laravel, Node.Js, Redis, Html, Javascript, CSS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>July 2016 - September 2016</p>
+                  <div class="h5">Xarevison</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Summer Internship</div>
+                  <p>
+                    Summer internship as a PHP and ionic developer
+                    </br></br><b>Main Technologies:</b> PHP, Html, Javascript, CSS, Ionic
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="education">
+        <div class="container cc-education">
+          <div class="h4 text-center mb-4 title">Education</div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2017 - 2020</p>
+                  <div class="h5">Master's Degree</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Master of Software Engineering</div>
+                  <p class="category">Instituto Superior de Engenharia do Porto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2014 - 2017</p>
+                  <div class="h5">Bachelor's Degree</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Bachelor of Software Engineering</div>
+                  <p class="category">Instituto Superior de Engenharia do Porto</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="h4 text-center mb-4 title">Portfolio</div>
+            </div>
+          </div>
+          <div class="tab-content gallery mt-5">
+            <div class="tab-pane active" id="web-development">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/pedropiloto/rentability-simulator" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/portfolio.png" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Rentability Simulator</div>
+                            <p>Rentability Simulator developed using react, meant to be used for Portugal. It is still
+                              under development of new features.</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/pedropiloto/Node.js-Multi-Room-Chat" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/portfolio.png" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Node.JS Multi Room Chat</div>
+                            <p>Multi Room Chat developed in Node.js and was developed simultaneously a simple web client
+                              for purposes of testing and analysis of its use.</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/pedropiloto/restaurant-microservices" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/portfolio.png" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Restaurant Microservices</div>
+                            <p>Restaurant system developed using a microservices oriented architecture.</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/pedropiloto/check-service" target="_blank">
+                        <figure class="cc-effect">
+                          <img src="images/portfolio.png" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Check Service</div>
+                            <p>Web application to check availability and reliability of TCP services, with possibility
+                              of downloading files at the end of each test availability. The tests are fully
+                              customizable by parameters. This simple application was developed using PHP, Html, CSS and
+                              Js.</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://bitbucket.org/ajo/labdsoft-2018-g7/src/master/">
+                        <figure class="cc-effect">
+                          <img src="images/portfolio.png" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Cito - Transplant Center</div>
+                            <p>The project was a system to manage a transplant center. This was developed as an
+                              academical project. We ended up with the following four different components interacting
+                              with each other.
+                            </p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://github.com/pedropiloto/solid-server-microservices">
+                        <figure class="cc-effect">
+                          <img src="images/portfolio.png" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Solid Server Microservices</div>
+                            <p>Solid is a project created by Tim Berners-Lee that aims to create new decentralized web
+                              paradigm. This project was developed during the master thesis and the main objective was
+                              to migrate from a monolith to a microservices oriented architecture.</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- End Left-Sidebar -->
-
-    <!-- content
-		================================================== -->
-    <div id="content">
-
-      <!--====================
-                HOME
-                ====================-->
-      <section class="home wow fadeInLeft animated" id="home">
-        <div class="content text-center">
-          <h1><span>Pedro Piloto</span></h1>
-          <div class="tlt">
-            <ul class="texts">
-              <li>Software Engineer</li>
-              <!--<li>Mobile Developer</li>-->
-            </ul>
-          </div>
-        </div>
-        <div class="clear"></div>
-      </section>
-      <!-- End Home -->
-
-      <!-- ====================
-                 ABOUT-ME
-                 ====================-->
-      <section class="about section section-t wow fadeInRight animated" id="about">
-        <p class="sub-title">Who am i ?</p>
-        <h3 class="title">Personal Details</h3>
-        <hr />
-        <p style="text-align:justify;text-justify:inter-word;">I have a BSc in Computer Engineering in Instituto
-          Superior de Engenharia do Porto (ISEP) and I’m currently finishing a MSc in Software Engineering at the same
-          institution in a post-work regime.<br>
-          
-          Since I graduated, I have been working as a Full-Stack Software Engineer, but with a special focus on the back-end. 
-          I try to deepen my knowledge mainly in technologies like Java, Kotlin, Node.Js, and ReactJS, but also with some 
-          experiences with Ruby and Scala in a professional context. Besides that, I consider myself a quick learner and I 
-          like to try new technologies to address new challenges.
-          <br>
-          
-          The thing I most like in Software Engineering is to solve problems, it's an incredible feeling when I deliver something I'm proud of. Also, I'm not a believer of Software as a deliverable but, instead, I see it as an incremental product that must be maintained and monitored.<br>
-          I'm interested in technological challenges with the potential to create a positive impact on society. My future
-          ambitions are to enrich my knowledge and capacities for productive development of applications of
-          considerable size and application.<br
-          ></p>
-        <ul class="list-inline">
-          <li><span>Name:</span> Pedro Piloto</li>
-          <li><span>Email:</span> <a href="mailto:me@pedropiloto.com">pedro@pedropiloto.com</a></li>
-          <li><span>Date of birth:</span> 27 May 1996</li>
-          <li><span>City:</span> Porto</li>
-          <li><span>Nationality:</span> Portuguese</li>
-        </ul>
-        <div class="clear"></div>
-        <div class="text-center margin-t-40">
-          <a target="_blank" href="https://pedropiloto.com/cv_en.pdf" class="btn btn-custom"><i class="fa fa-download"></i>
-            Download Resume</a>
-        </div>
-      </section>
-      <!-- End About-Us -->
-
-      <!-- ====================
-                 Skills
-                 ====================-->
-      <section class="skills section section-t wow fadeInLeft animated" id="skills">
-        <p class="sub-title">What I'm best at</p>
-        <h3 class="title">Skills &amp; Knowledge</h3>
-        <hr />
-        <div class="row">
-          <div class="col-md-6">
-
-            <!-- Knowledge -->
-            <div class="col-md-6">
-              <ul class="check">
-                <li>PHP</li>
-                <li>Node.js</li>
-                <li>.Net</li>
-                <li>Java</li>
-                <li>Kotlin</li>
-                <li>MySql</li>
-                <li>Oracle Sql</li>
-                <li>MSSQL</li>
-                <li>Laravel Framework</li>
-                <li>Native Android</li>
-                <li>Ionic</li>
-                <li>Wordpress</li>
-                <li>Cross Development</li>
-                <li>Scrum</li>
-              </ul>
-            </div>
-            <!-- end .span3 -->
-          </div>
-          <!-- End Row -->
-      </section>
-      <!-- End Skills -->
-
-      <!-- ====================
-                 EXPERIENCE
-                 ====================-->
-      <section class="experience section section-t wow fadeInRight animated" id="experience">
-        <p class="sub-title">My Background</p>
-        <h3 class="title">Work Experience</h3>
-        <hr />
-        <!-- Experience-Item -->
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
-            <div class="cv-section-title">
-              <h3><span>2018<small>September</small></span>
-              </h3>
-              <h4>Talkdesk</h4>
-            </div>
-          </div>
-
-          <div class="col-md-9 col-sm-8">
-            <div class="cv-item">
-              <h4>Software Engineer</h4>
-              <p>
-                Part of a full-stack team responsible for maintaining and evolve a system that allows the customization of the customer experience during a call. Participated in a lot of initiatives with different stacks and teams.
-              </p>
-              <p>
-                <b>Main Technologies:</b> Kotlin, Java, Spring Boot, Ruby, NodeJS, OpenFaas, AWS Lambda, Scala, RabbitMQ, Kafka, Looker, Docker, ReactJS
-              </p>
-            </div>
-            <!-- end .cv-item -->
-          </div>
-        </div>
-        <!-- Experience-Item -->
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
-            <div class="cv-section-title">
-              <h3><span>2017<small>September</small></span>
-                <span>2018<small>August</small></span>
-              </h3>
-              <h4>Glintt</h4>
-            </div>
-          </div>
-
-          <div class="col-md-9 col-sm-8">
-            <div class="cv-item">
-              <h4>Software Engineer Trainee</h4>
-              <p>
-                Integration in a team of development of Hospital software module.</p>
-              <p>
-                <b>Main tecnhologies:</b> .Net, Java, Mulesoft, Oracle Sql, Html, JavaScript, TypeScript, CSS, Less
-              </p>
-            </div>
-            <!-- end .cv-item -->
-          </div>
-        </div>
-        <!-- End row -->
-        <!-- Experience-Item -->
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
-            <div class="cv-section-title">
-              <h3><span>2016<small>February</small></span>
-              </h3>
-              <h4></h4>
-            </div>
-          </div>
-
-          <div class="col-md-9 col-sm-8">
-            <div class="cv-item">
-              <h4>Freelancer</h4>
-              <p>
-                Development of own projects and for third parties.
-              </p>
-              <p>
-                <b>Main Tecnhologies: </b> PHP, Laravel, Html, Javascript, CSS, Android
-              </p>
-            </div>
-            <!-- end .cv-item -->
-          </div>
-        </div>
-        <!-- End row -->
-        <!-- Experience-Item -->
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
-            <div class="cv-section-title">
-              <h3><span>2017<small>March</small></span> -
-                <span>2017<small>August</small></span>
-              </h3>
-              <h4>FYI</h4>
-            </div>
-          </div>
-
-          <div class="col-md-9 col-sm-8">
-            <div class="cv-item">
-              <h4>Curricular Internship</h4>
-              <p>
-                Development of authentication and authorization shared system.
-                <p>
-                  <b>Main Technologies: </b> PHP, Laravel, Node.Js, Redis, Html, Javascript, CSS
-                </p>
-              </p>
-            </div>
-            <!-- end .cv-item -->
-          </div>
-        </div>
-        <!-- End row -->
-        <!-- Experience-Item -->
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
-            <div class="cv-section-title">
-              <h3><span>2016<small>July</small></span> -
-                <span>2016<small>Septmenber</small></span>
-              </h3>
-              <h4>Xarevision</h4>
-            </div>
-          </div>
-
-          <div class="col-md-9 col-sm-8">
-            <div class="cv-item">
-              <h4>Summer internship</h4>
-              <p>
-                Summer internship as a PHP and ionic developer
-                <p>
-                  <b>Main Technologies: </b>PHP, Html, Javascript, CSS, Ionic
-                </p>
-              </p>
-            </div>
-            <!-- end .cv-item -->
-          </div>
-        </div>
-        <!-- End row -->
-      </section>
-      <!-- End Experience -->
-
-      <!-- ====================
-                 EDUCATION
-                 ====================-->
-      <section class="experience education section section-t wow fadeInLeft animated" id="education">
-        <p class="sub-title">My Education</p>
-        <h3 class="title">Education</h3>
-        <hr />
-
-        <!-- Education-Item -->
-        <div class="row">
-            <div class="col-md-3 col-sm-4">
-              <div class="cv-section-title">
-                <h3><span>2017<small>September</small></span> -
-                  <span>2020<small>September</small></span>
-                </h3>
-                <h4>Instituto Superior de Engenharia do Porto</h4>
-              </div>
-            </div>
-            <div class="col-md-9 col-sm-8">
-              <div class="cv-item">
-                <h4>Master's Degree in Software Engineering</h4>
-                <p>
-                    Master's Degree in Software Engineering at ISEP
-                </p>
-              </div>
-              <!-- end .cv-item -->
-            </div>
-          </div>
-          <!-- End Row -->
-
-        <!-- Education-Item -->
-        <div class="row">
-          <div class="col-md-3 col-sm-4">
-            <div class="cv-section-title">
-              <h3><span>2014<small>September</small></span> -
-                <span>2017<small>September</small></span>
-              </h3>
-              <h4>Instituto Superior de Engenharia do Porto</h4>
-            </div>
-          </div>
-          <div class="col-md-9 col-sm-8">
-            <div class="cv-item">
-              <h4>Bachelor's Degree in Computer Engineer</h4>
-              <p>
-                Bachelor's Degree in Computer Engineer degree at ISEP and participated in some activities during the course
-              </p>
-            </div>
-            <!-- end .cv-item -->
-          </div>
-        </div>
-        <!-- End Row -->
-
-      </section>
-      <!-- End Education -->
-
-      <!-- ====================
-                 PORTFOLIO
-                 ====================-->
-      <section class="section section-t" id="portfolio">
-        <p class="sub-title">My work</p>
-        <h3 class="title">Portfolio</h3>
-        <hr />
-
-        <div class="row margin-t-20">
-          <div class="col-md-12">
-            <!--.portfolio-filter-->
-            <ul class="portfolio-filters">
-              <li class="filter active" data-filter="all">All</li>
-              <!--<li class="filter" data-filter="webdevelopment">Web Development</li>-->
-              <!--<li class="filter" data-filter="mobiledevelopment">Mobile Development</li>-->
-            </ul>
-            <!-- End portfolio-filter-->
-
-            <div id="grid" class="portfolio-items">
-              <div class="row">
-                <!-- ===== Portfolio Item-1 ===== -->
-                <div class="col-sm-4 mix margin-t-20 webdevelopment effects overlay-effect clearfix">
-                  <div class="img">
-                    <img class="portimage" src="img/portfolio/port1.png" alt="Portfolio Item">
-                    <div class="overlay">
-                      <button class="md-trigger expand" data-modal="modal-1"><i class="fa fa-search"></i>
-                        <br />view More</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- item-1 -->
-                <!-- Portfolio Item-1 Details -->
-                <div class="md-modal md-effect" id="modal-1">
-                  <div class="md-content">
-                    <div class="folio">
-                      <div class="sp-name"><strong>Rentability Simulator</strong>
-                        <br><span>Web Development</span></div>
-                      <div class="sp-dsc">
-                        Rentability Simulator developed using react, meant to be used for Portugal. It is still under development of new features.
-                      </div>
-                      <div class="sp-social">
-                        <ul>
-                          <li>
-                            <a target="_blank" href="https://github.com/pedropiloto/rentability-simulator" class="social-btn "><i class="fa fa-dribbble "></i></a></li>
-                        </ul>
-                      </div>
-                      <button class="md-close "><i class="fa fa-times "></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="md-overlay "></div>
-                <!-- /Portfolio Item-1 Details -->
-
-                <!-- ===== Portfolio Item-2 ===== -->
-                <div class="col-sm-4 mix margin-t-20 webdevelopment effects overlay-effect clearfix">
-                  <div class="img">
-                    <img src="img/portfolio/port2.png" alt="Portfolio Item">
-                    <div class="overlay">
-                      <button class="md-trigger expand" data-modal="modal-2"><i class="fa fa-search"></i>
-                        <br />view More</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- item-1 -->
-                <!-- Portfolio Item-2 Details -->
-                <div class="md-modal md-effect" id="modal-2">
-                  <div class="md-content">
-                    <div class="folio">
-                      <div class="sp-name"><strong>Node.Js Multi Room Chat</strong>
-                        <br><span>Web Development</span></div>
-                      <div class="sp-dsc">
-                        Multi Room Chat developed in Node.js and was developed simultaneously a simple web client for
-                        purposes of testing and analysis of its use
-                      </div>
-                      <div class="sp-social">
-                        <ul>
-                          <li>
-                            <a target="_blank" href="https://github.com/pedropiloto/Node.js-Multi-Room-Chat" class="social-btn "><i class="fa fa-dribbble "></i></a></li>
-                        </ul>
-                      </div>
-                      <button class="md-close "><i class="fa fa-times "></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="md-overlay "></div>
-                <!-- /Portfolio Item-2 Details -->
-
-                <!-- ===== Portfolio Item-3 ===== -->
-                <div class="col-sm-4 mix margin-t-20 webdevelopment effects overlay-effect clearfix">
-                  <div class="img">
-                    <img class="portimage" src="img/portfolio/port3.png" alt="Portfolio Item">
-                    <div class="overlay">
-                      <button class="md-trigger expand" data-modal="modal-3"><i class="fa fa-search"></i>
-                        <br />view More</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- item-1 -->
-                <!-- Portfolio Item-3 Details -->
-                <div class="md-modal md-effect" id="modal-3">
-                  <div class="md-content">
-                    <div class="folio">
-                      <div class="sp-name"><strong>Check Service</strong>
-                        <br><span>Web Development</span></div>
-                      <div class="sp-dsc">
-                        Web application to check availability and reliability of TCP services, with possibility of
-                        downloading files at the end of each test availability. The tests are fully customizable by
-                        parameters. This simple application was developed using PHP, Html, CSS
-                        and Js.
-                      </div>
-                      <div class="sp-social">
-                        <ul>
-                          <li>
-                            <a target="_blank" href="https://github.com/pedropiloto/check-service" class="social-btn "><i class="fa fa-dribbble "></i></a></li>
-                        </ul>
-                      </div>
-                      <button class="md-close "><i class="fa fa-times "></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="md-overlay "></div>
-                <!-- /Portfolio Item-3 Details -->
-
-                <!-- ===== Portfolio Item-4 ===== -->
-                <div class="col-sm-4 mix margin-t-20 webdevelopment effects overlay-effect clearfix">
-                  <div class="img">
-                    <img src="img/portfolio/port4.png" alt="Portfolio Item">
-                    <div class="overlay">
-                      <button class="md-trigger expand" data-modal="modal-4"><i class="fa fa-search"></i>
-                        <br />view More</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- item-1 -->
-                <!-- Portfolio Item-4 Details -->
-                <div class="md-modal md-effect" id="modal-4">
-                  <div class="md-content">
-                    <div class="folio">
-                      <div class="sp-name"><strong>CITO - Transplant Center</strong>
-                        <br><span>Web Development</span></div>
-                      <div class="sp-dsc">
-                          The project was a system to manage a transplant center. This was developed as an academical project.
-                          We ended up with the following components:
-                          <p>- API for main purposes</p>
-                          <p>- API for marketing purposes</p>
-                          <p>- System for alerts processing</p>
-                          <p>- Frontend application</p>
-                      </div>
-                      <div class="sp-social">
-                        <ul>
-                          <li>
-                            <a target="_blank" href="https://bitbucket.org/ajo/labdsoft-2018-g7/src/master/" class="social-btn "><i class="fa fa-dribbble "></i></a></li>
-                        </ul>
-                      </div>
-                      <button class="md-close "><i class="fa fa-times "></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="md-overlay "></div>
-                <!-- /Portfolio Item-4 Details -->
-
-                <!-- ===== Portfolio Item-5 ===== -->
-                <div class="col-sm-4 mix margin-t-20 mobiledevelopment effects overlay-effect clearfix">
-                  <div class="img">
-                    <img src="img/portfolio/port5.png" alt="Portfolio Item">
-                    <div class="overlay">
-                      <button class="md-trigger expand" data-modal="modal-5"><i class="fa fa-search"></i>
-                        <br />view More</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- item-1 -->
-                <!-- Portfolio Item-5 Details -->
-                <div class="md-modal md-effect" id="modal-5">
-                  <div class="md-content">
-                    <div class="folio">
-                      <div class="sp-name"><strong>Restaurant Microservices</strong>
-                        <br><span>Web Development</span></div>
-                      <div class="sp-dsc">
-                        Restaurant system developed using a microservices oriented architecture.
-                      </div>
-                      <div class="sp-social">
-                        <ul>
-                          <li>
-                            <a target="_blank" href="https://github.com/pedropiloto/restaurant-microservices" class="social-btn "><i class="fa fa-dribbble "></i></a></li>
-                        </ul>
-                      </div>
-                      <button class="md-close "><i class="fa fa-times "></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="md-overlay "></div>
-                <!-- /Portfolio Item-5 Details -->
-
-                <!-- ===== Portfolio Item-6 ===== -->
-                <div class="col-sm-4 mix margin-t-20 webdevelopment effects overlay-effect clearfix">
-                  <div class="img">
-                    <img src="img/portfolio/port6.png" alt="Portfolio Item">
-                    <div class="overlay">
-                      <button class="md-trigger expand" data-modal="modal-6"><i class="fa fa-search"></i>
-                        <br />view More</button>
-                    </div>
-                  </div>
-                </div>
-                <!-- item-1 -->
-                <!-- Portfolio Item-6 Details -->
-                <div class="md-modal md-effect" id="modal-6">
-                  <div class="md-content">
-                    <div class="folio">
-                      <div class="sp-name"><strong>Solid Server Microservices </strong>
-                        <br><span>Web Development</span></div>
-                      <div class="sp-dsc">
-                        Solid is a project created by Tim Berners-Lee that aims to create new decentralized web paradigm. This project was developed during the master thesis and the main objective
-                        was to migrate from a monolith to a microservices oriented architecture.
-                      </div>
-                      <div class="sp-social">
-                        <ul>
-                          <li>
-                            <a target="_blank" href="https://github.com/pedropiloto/solid-server-microservices" class="social-btn "><i class="fa fa-dribbble "></i></a></li>
-                        </ul>
-                      </div>
-                      <button class="md-close "><i class="fa fa-times "></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="md-overlay "></div>
-                <!-- /Portfolio Item-4 Details -->
-              </div>
-              <!-- End Row -->
-            </div>
-            <!-- End .grid -->
-          </div>
-          <!--.col-md-12 of portfolio filter-->
-        </div>
-        <!--.row-->
-      </section>
-      <!-- End Portfolio -->
-
-      <!-- ====================
-                 FOOTER
-                 ====================-->
-      <footer class="footer ">
-        <p class="copyright ">© 2015 Swiftly. All rights Reserved.</p>
-      </footer>
-      <!-- End Footer -->
-
-
-    </div>
-    <!-- End content -->
   </div>
-  <!-- End Container -->
-
-  <!-- Scroll top -->
-  <a href="# " class="back-to-top "> <i class="pe-7s-angle-up "></i></a>
-
-
-  <!-- Javascript -->
-  <script src="js/jquery.min.js "></script>
-  <script type="text/javascript " src="js/plugins.js "></script>
-  <script type="text/javascript " src="js/jquery.app.js "></script>
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-62698412-4', 'auto');
-    ga('send', 'pageview');
-  </script>
-
+  <footer class="footer">
+    <div class="container text-center">
+      <a class="cc-facebook btn btn-link" href="https://www.linkedin.com/in/pedro-piloto/" target="_blank"><i
+          class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a><a class="cc-twitter btn btn-link"
+        href="mailto:pedro@pedropiloto.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="h4 title text-center">Pedro Piloto</div>
+    <div class="text-center text-muted">
+      <p>
+        &copy;All rights reserved.
+      </p>
+    </div>
+  </footer>
+  <script src="js/core/jquery.3.2.1.min.js"></script>
+  <script src="js/core/popper.min.js"></script>
+  <script src="js/core/bootstrap.min.js"></script>
+  <script src="js/now-ui-kit.js?v=1.1.0"></script>
+  <script src="js/aos.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
